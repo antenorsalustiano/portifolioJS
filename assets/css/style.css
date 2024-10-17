@@ -804,6 +804,41 @@ body.light-mode #home img#notebook-2-white {
   width: 10rem;
 }
 
+/*==========Certificado ============*/
+
+#certificate header h2 {
+  margin-bottom: 6rem;
+}
+
+#certificate .cards {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+#certificate .card {
+  padding: 2.8rem;
+  text-align: left;
+
+  background: var(--secundary-color);
+
+  border-radius: 0.6rem;
+  box-shadow: -1rem 1rem 1rem rgba(0, 0, 0, 0.267);
+
+  transition: 400ms;
+}
+
+#certificate .card:hover {
+  background: var(--third-color);
+}
+
+#certificate .card h3 {
+  margin-block: 1.6rem;
+}
+
+
+
+
 /*===== CONTACT ===============================================*/
 
 #contact {
@@ -887,7 +922,7 @@ body.light-mode #home img#notebook-2-white {
 }
 
 #contact .col-b img {
-  width: 13rem;
+  width: 44rem;
   animation: flutuar 2.5s infinite backwards;
   filter: brightness(1.2);
 }
@@ -1354,6 +1389,23 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
     flex-grow: 1;
   }
 
+  /*===== certificado =======*/
+  #certificate h2 {
+    width: 49.7rem;
+    margin-inline: auto;
+  }
+
+  #certificate .cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
+
+  #certificate .card {
+    width: 30%;
+    flex-grow: 1;
+  }
+
   /*===== CONTACT =====================================*/
 
   #contact .wrapper {
@@ -1510,7 +1562,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   }
 
   #contact .col-b img {
-    width: 10rem;
+    width: 20rem;
   }
 
   #contact .col-b::after {
